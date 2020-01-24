@@ -31,6 +31,7 @@ def list_of_directors(source)
     directors << source[n][:name]
   end
   puts directors
+  puts "blank"
   directors
 end
 
