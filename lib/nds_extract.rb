@@ -27,9 +27,12 @@ end
 def list_of_directors(source)
   # Write this implementation
   directors = []
-  for n in 0...source.size - 1
-    directors << source[n][:name]
+  director_index = 0
+  source.size.times do
+    directors << source[director_index][:name]
+    director_index += 1
   end
+  
   puts directors
   puts "blank"
   directors
