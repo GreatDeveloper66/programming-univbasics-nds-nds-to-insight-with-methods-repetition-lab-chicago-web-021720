@@ -27,7 +27,7 @@ end
 def list_of_directors(source)
   # Write this implementation
   directors = []
-  for n in 1...source.size 
+  for n in 1...source.size
     directors << source[n][:name]
   end
   directors
@@ -50,5 +50,3 @@ def total_gross(source)
     sum + list[director]
   end
 end
-
-
