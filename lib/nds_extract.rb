@@ -32,9 +32,6 @@ def list_of_directors(source)
     directors << source[director_index][:name]
     director_index += 1
   end
-  
-  puts directors
-  puts "blank"
   directors
 end
 
