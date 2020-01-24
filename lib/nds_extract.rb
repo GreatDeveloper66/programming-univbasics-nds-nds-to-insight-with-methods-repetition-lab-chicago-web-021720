@@ -30,6 +30,7 @@ def list_of_directors(source)
   for n in 1...source.size
     directors << source[n][:name]
   end
+  puts directors
   directors
 end
 
